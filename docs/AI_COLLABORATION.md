@@ -26,6 +26,12 @@ A retrospective source reading should be labeled as such. Do not invent missing 
 
 Keep public portfolio records free from private messages, credentials and third-party player data. Preserve the existing MIT license and distinguish code licensing from game-audio ownership.
 
+## November 1, 2026 — first-person origin recollection
+
+The reason for the project was clarified in my own account: a familiar roar was audible in an earlier WoW client and silent in a later one, despite the sound files remaining. Restoring the sound for myself, family and guildmates was the creative goal. The description of ROARSounds as an early predecessor of RoarForever also comes from my recollection.
+
+AI incorporated that testimony and checked it against the ROAR source to separate motivation from verified behavior. No one established direct code reuse, universal group playback or in-game test results during this documentation update.
+
 ## November 2026 — documenting the rename
 
 I renamed the GitHub repository to **RoarSoundEffects** to give my earlier sound experiment a descriptive public title. At my request, AI revised the current documentation and attribution, preserving the historical **ROAR** installed addon and the distinction between my idea and source-based interpretation. No in-game audio testing was performed.

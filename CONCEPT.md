@@ -2,7 +2,7 @@
 
 **By:** Babuni  
 **Addon as installed:** ROAR  
-**Document status:** Source-based reconstruction, not a transcript of initial brainstorming.
+**Document status:** Source-based reconstruction supplemented by Babuni's 2026-11-01 recollection; not an original brainstorming transcript.
 
 ## Giving a familiar emote its voice
 
@@ -11,6 +11,12 @@ For me, a character's roar should be something players can hear as well as read.
 The project began with a small game-world observation: the player may see the text of a character's `/roar` emote without hearing the race-specific roar that helps the gesture feel alive. ROARSounds makes that expressive moment audible again by selecting a **built-in game sound** rather than inventing or replacing the sound palette.
 
 The project's subject is presence and immersion, not statistics, combat advantage, UI ornament or voice chat. It is an auditory companion to a deliberate roleplay gesture. The sound should make a textual action feel more physical and characterful.
+
+## Recovering a familiar voice
+
+An earlier WoW client had made me love the sound of `/roar`. Finding the emote silent on another client—even while the sound files were still present—was the motivation for ROARSounds. The first reward was hearing my own character roar again; sharing that sound with family and guildmates became a larger ambition.
+
+This recollection, supplied November 1, 2026, adds the human reason behind the source history. ROARSounds is a **creative predecessor** to [RoarForever](https://github.com/babunidev/RoarForever), but this does not establish that the later addon reuses its code. Other-player playback remains limited by what the client's unit APIs can identify.
 
 ## Expanding who can be heard
 
@@ -26,6 +32,6 @@ Eight races with male/female sound variants are declared; the addon uses client 
 
 ## Related work, separate history
 
-`ROARSounds` is **not** the same addon as the action-slot-controlled `roar`, `roarr`, `ROARRunlimited`, `RoarGuild`, or later `RoarForever`. A common creative taste for expressive game characters can be discussed in Babuni's portfolio, but code lineage, approved integration plans and release compatibility must be established rather than assumed.
+ROARSounds remains a distinct implementation from the action-slot-controlled `roar`, `roarr`, `ROARRunlimited`, `RoarGuild`, and later RoarForever. Its creative connection to RoarForever is established by Babuni's recollection; direct code lineage and release compatibility must be verified independently.
 
 Babuni remains the original creative director. Technical and documentation assistance from AI must be attributed separately and only when supported by records.

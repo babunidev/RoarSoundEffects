@@ -7,7 +7,7 @@
 
 ROARSounds began with a narrow act of game-world restoration. The original `ROAR.lua` committed on **April 19, 2026** (`5d54503`) watched for an emote message from the player's own character. When text indicated a roar, it selected the corresponding built-in game audio using the character's race and sex. It did not create a new sound pack or require the user to configure an ability rotation; it simply made a familiar roleplay gesture audible.
 
-This is the core creative idea associated with Babuni. It is expressed by the repository's purpose and first implementation. The available commits do not preserve a conversation where the author explains the exact moment of inspiration, so this journal treats the connection between sound and character immersion as a **source-grounded interpretation**, not a verbatim personal recollection.
+This is the core creative idea associated with Babuni. It is expressed by the repository's purpose and first implementation. The initial commits do not preserve an inspiration conversation. Babuni's November 1, 2026 personal recollection, recorded below, now supplies the reason without inventing a transcript.
 
 The earliest code listed race-specific sound variants in a nested table keyed by race and sex, including an alias for the Undead/Scourge naming. It subscribed to `PLAYER_LOGIN`, `UNIT_MODEL_CHANGED`, and `CHAT_MSG_TEXT_EMOTE` and used `PlaySoundFile`. At first it cared only about the speaker who installed the addon.
 
@@ -50,6 +50,14 @@ The source now contains **16 declared WAV paths** across eight race families and
 Should the addon try to recognize more races, offer player controls, or support clients beyond its declared TOC target? Is a silence-first response better than guessing when the speaker is not identifiable? Should matching be localized or made more precise? These are sensible **future questions for Babuni**, not decisions already made.
 
 A publishable portfolio account should preserve both experiments—the temporary message protocol and the final chat-listener model—because the discarded solution shows how the work evolved, rather than pretending the current code was obvious from the beginning.
+
+## November 1, 2026 — remembering the first roar
+
+An earlier World of Warcraft client had made the distinctive `/roar` sound one of my favorite details. In another client the roar had become silent, even though the audio files were still there. Finding a way to call those existing sounds again felt like restoring something the game had lost. Hearing my own character roar mattered most, and sharing the experience with family and guildmates was part of the excitement.
+
+The source records the progression from local playback through an addon-message experiment to a text-emote listener for identifiable players. My recollection supplies the motivation; the code supplies the technical limits. This was also the **creative predecessor of RoarForever**, though a direct code port has not been verified.
+
+This is a later personal recollection, not a reconstructed conversation from April 2026. AI checked the implementation and integrated the account into the documentation; no addon code or in-game behavior was changed or tested.
 
 ## November 2026 — a clearer name for the sound experiment
 

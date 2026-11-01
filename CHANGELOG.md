@@ -26,6 +26,13 @@
 
 The standalone ZIP and folder appear in Git; **archive contents were not independently inspected** in this documentation-only pass. Git tells us what changed, not why each change was selected or whether it passed a gameplay test.
 
+## 2026-11-01 — remembered origin and RoarForever lineage
+
+- Added Babuni's personal account of restoring built-in `/roar` audio after encountering a silent client.
+- Recorded the significance of sharing the experience with family and guildmates.
+- Clarified RoarForever's creative connection without claiming an unverified direct code port.
+- Documentation only: no changes to Lua, TOC, ZIP, license or in-game tests.
+
 ## 2026-11-01 — Roar Sound Effects repository identity
 
 - The GitHub repository was renamed from `ROARSounds` to **RoarSoundEffects**.

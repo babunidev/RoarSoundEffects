@@ -10,7 +10,7 @@ Write public-facing histories from Babuni's first-person perspective without beg
 
 ## Identity
 
-This repository implements a **WoW /roar sound restoration addon** installed as `ROAR`. It is not the action-slot emote addon in `roar` or `roarr`, and is not equivalent to ROARRunlimited, RoarGuild or RoarForever. Shared naming is not evidence of a single codebase.
+This repository implements a **WoW /roar sound restoration addon** installed as `ROAR`. It is not the action-slot emote addon in `roar` or `roarr`, and is separate from ROARRunlimited, RoarGuild and the later RoarForever implementation. Shared naming is not evidence of a single codebase.
 
 Do not replace the creator's immersion-first concept with combat automation, a performance dashboard, a content-generation pipeline or a new sound pack without explicit creative direction.
 
@@ -26,6 +26,10 @@ Do not replace the creator's immersion-first concept with combat automation, a p
 - The **current source does not send addon messages**. That historical experiment was removed on April 22, 2026; reintroducing communication requires a new creator decision.
 - Do not treat `ROAR.zip` as verified equivalent to source without comparing its contents.
 - Preserve MIT author credit and game-audio licensing boundaries.
+
+## Historical relationship to RoarForever
+
+Babuni recalled on November 1, 2026 that this addon arose after enjoying audible roars in one client and finding them disabled in another even though the assets remained. Restoring the sound for personal, family and guild play was the original motivation. This makes ROARSounds a **creative predecessor** of RoarForever, not a verified source-code ancestor. Document this testimony separately from source-proven limits: other-player playback requires identifiable units and is not a universal group setting.
 
 ## Collaboration journal expectations
 

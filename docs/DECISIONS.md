@@ -40,6 +40,12 @@ The commits prove **that** the code moved between approaches. They do not contai
 
 Do not implement any option merely because it appears here; preserve the creative owner's explicit decisions.
 
+## November 1, 2026 — creative history clarified
+
+The original goal was to restore familiar `/roar` sounds that I had heard in an earlier client but that a later client no longer played, despite retaining the files. Restoring them for my own character came first; experiencing them with family and guildmates mattered too. RoarForever later continued this creative direction.
+
+**Evidence boundary:** This historical motive and creative lineage come from Babuni's firsthand recollection. The current ROAR code confirms local and limited other-player detection, not automatic playback for every group member. No direct source-code inheritance from ROARSounds to RoarForever has been verified.
+
 ## November 2026 — project name
 
 The repository is now **RoarSoundEffects**, displayed as **Roar Sound Effects**, formerly **ROARSounds**. My creative decision was to make its sound-restoration purpose clearer without renaming the installed **ROAR** addon. The AI assistant changed documentation only; no runtime migration or playback verification occurred.

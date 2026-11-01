@@ -13,6 +13,14 @@ ROARSounds restores a missing bit of character presence to the `/roar` emote by 
 
 There are **no bundled WAV replacements**. The addon maps 16 race/sex combinations to existing paths under `Sound\\Character\\PlayerRoars\\`; the game client must actually contain those files.
 
+## How this began
+
+A different World of Warcraft client had made the race-specific `/roar` sound one of my favorite small details. On a later client the emote had fallen silent, although its sound files still existed. Discovering that an addon could play those recordings again felt like restoring a missing piece of the game. Hearing my own character roar was especially rewarding.
+
+The experience was something I wanted to share with family and guildmates. The source evolved from playing the local player's roar to detecting other players' text emotes and using identifiable units to find their sounds. It does not automatically enable playback for everyone in the group.
+
+This experiment became a **creative predecessor of [RoarForever](https://github.com/babunidev/RoarForever)**. The connection is based on my recollection, recorded November 1, 2026; direct code inheritance has not been verified.
+
 ## What the addon can identify
 
 The code recognizes the local player and attempts to resolve the text-emote sender using these unit contexts, in order:

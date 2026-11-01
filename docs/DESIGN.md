@@ -10,6 +10,10 @@ The surface is intentionally invisible: type `/roar` (or hear another player's r
 
 This choice differs from ROARRunlimited/RoarGuild, which use action-slot presses to generate emotes. ROARSounds does not generate emotes: it **listens** to a text-emote event and chooses a sound. The projects can share an expressive interest without sharing an implementation history.
 
+## Bringing something back
+
+The design began with a missing sound, not the wish to invent a new one. In a previous WoW client the roar had become part of my experience; in another, the emote was silent while its files remained. Recovering that voice, particularly for my own character and later for people I played with, was the appeal. This personal account was supplied retrospectively on November 1, 2026.
+
 ## Audience and visibility
 
 The local player can be identified directly after login. Other voices are attempted through visible game unit identities—target, mouseover, focus, party, raid. An unknown stranger's chat message need not translate to an audible voice, even if the text is seen. That limitation comes from the information the game API makes available, not a creator-authored distance model.
