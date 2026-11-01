@@ -7,6 +7,8 @@
 **Source of truth:** [`ROAR/ROAR.lua`](ROAR/ROAR.lua) and [`ROAR/ROAR.toc`](ROAR/ROAR.toc)  
 **Verification:** Git/source inspection on 2026-10-26. In-game playback and client compatibility were not tested in this documentation pass.
 
+**Project status: Finished — legacy addon.** The original implementation is complete and no further development is planned. The source and package remain available for players with a compatible World of Warcraft client. The manifest declares `Interface: 30300`, but successful playback and compatibility with any specific client build have not been verified in this documentation review. This is a development-lifecycle decision, not a compatibility guarantee.
+
 This is my **Roar Sound Effects** project, formerly named **ROARSounds**. I wanted the `/roar` emote to have its audible character again, using the sounds already present in the game rather than distributing replacement audio. The GitHub repository is now [RoarSoundEffects](https://github.com/babunidev/RoarSoundEffects), while the installed addon retains the **ROAR** folder and source names.
 
 ROARSounds restores a missing bit of character presence to the `/roar` emote by calling **existing World of Warcraft client sound files**. When the addon receives a recognized text-emote event, it can play the appropriate built-in roar for the player's own character or another identifiable character. The sound depends on the resolved character's race and sex.
@@ -86,5 +88,5 @@ The existing [MIT license](LICENSE) credits **Babuni (2026)**. The license cover
 
 - [Creative concept](CONCEPT.md) · [Interaction and sound design](docs/DESIGN.md) · [Audio/content inventory](docs/CONTENT.md)
 - [Technical architecture](docs/ARCHITECTURE.md) · [Decisions and unresolved questions](docs/DECISIONS.md) · [Narrative development journal](docs/DEVLOG.md)
-- [Roadmap and testing](ROADMAP.md) · [Changelog](CHANGELOG.md)
+- [Completion status and compatibility notes](ROADMAP.md) · [Changelog](CHANGELOG.md)
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [Developer/AI rules](AGENTS.md)

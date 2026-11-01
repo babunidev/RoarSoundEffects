@@ -26,7 +26,7 @@ A **0.3-second** sender-specific gate limits closely repeated detection. It is n
 
 At present, a sender can consume the cooldown even when sound resolution fails; this is a technical side effect worth considering if the experience is made more reliable.
 
-## Open interaction questions
+## Historical interaction ideas (not planned)
 
 - Should players be able to choose local-only, party-only or all resolvable voices?
 - Is silence better than a neutral fallback for unsupported races?
@@ -34,4 +34,4 @@ At present, a sender can consume the cooldown even when sound resolution fails; 
 - What player cues should appear, if any, when a sound file is absent?
 - Should sound overlap, stacking or repeated roars be moderated differently?
 
-These are **proposals**, not approved feature requirements. No actual playtesting, usability study or verified target audio was conducted during the documentation review.
+These earlier ideas are retained for historical understanding, not as an active backlog. The project is finished and no further development is planned. No playtesting, usability study or verified target audio was conducted during the documentation review.

@@ -62,3 +62,9 @@ This is a later personal recollection, not a reconstructed conversation from Apr
 ## November 2026 — a clearer name for the sound experiment
 
 The project that began as **ROARSounds** is now named **Roar Sound Effects** on GitHub. The idea was to let the sound of an in-game `/roar` match the character's race and sex, using the existing client sounds. I chose the more descriptive name while keeping the installed **ROAR** addon intact. My AI assistant revised the documentation at my request; it did not change Lua, game audio, packaging or verify playback during this pass.
+
+## November 1, 2026 — a finished legacy addon
+
+With the sound-restoration experiment documented, the project is finished. The original addon has served its intended purpose, and no further development of this version is planned. It can remain available to those using a client that supports the historical sounds and APIs, although current client compatibility was not retested.
+
+My AI assistant recorded that decision in the project documentation. No Lua, TOC, ZIP, license or audio asset was changed.

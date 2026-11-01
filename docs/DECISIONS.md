@@ -29,7 +29,13 @@ The commits prove **that** the code moved between approaches. They do not contai
 - The TOC's `30300` version target must not be mistaken for a Vanilla 1.12 guarantee.
 - `ROAR.zip` was not opened and byte-compared against `ROAR/` in this audit.
 
-## Open creator choices (not approved)
+## November 1, 2026 — lifecycle decision
+
+Roar Sound Effects is a **finished legacy addon**, not a paused development project. The creative has decided not to continue features, fixes, ports or active maintenance. Existing files remain a historical release for clients where their APIs and sounds are supported, but no new compatibility testing confirms any particular client build.
+
+This closure applies to Roar Sound Effects alone, not to RoarForever.
+
+## Historical possibilities (not planned work)
 
 1. Which specific WoW clients should be officially supported?
 2. Should fallback or additional race mappings be provided, if corresponding game sounds exist?
@@ -38,7 +44,7 @@ The commits prove **that** the code moved between approaches. They do not contai
 5. Should author-approved release builds be generated from the source tree rather than uploaded manually?
 6. Does Babuni want a portfolio comparison between this listener-based addon and the separate action-triggered ROAR family?
 
-Do not implement any option merely because it appears here; preserve the creative owner's explicit decisions.
+These were once potential options, not approved tasks. With the addon finished, none belongs to an active roadmap; a new creative decision would be needed to revive development.
 
 ## November 1, 2026 — creative history clarified
 

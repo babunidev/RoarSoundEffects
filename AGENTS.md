@@ -14,6 +14,12 @@ This repository implements a **WoW /roar sound restoration addon** installed as 
 
 Do not replace the creator's immersion-first concept with combat automation, a performance dashboard, a content-generation pipeline or a new sound pack without explicit creative direction.
 
+## Finished-project policy
+
+Babuni has explicitly declared Roar Sound Effects a **finished legacy addon**. Preserve the source and historical release artifacts. Do not treat earlier proposals or test lists as an active roadmap or implement changes without a new creative decision.
+
+Compatibility is conditional: the TOC declares `30300`; playback depends on the particular client's APIs and sound files. Do not claim universally tested support. This project closure does not apply to the separate RoarForever development.
+
 ## Engineering and compatibility
 
 - Read `README.md`, `CONCEPT.md`, `docs/ARCHITECTURE.md`, `docs/DEVLOG.md`, `docs/DECISIONS.md`, current `ROAR/ROAR.lua`, `ROAR/ROAR.toc`, and Git history before changing behavior.

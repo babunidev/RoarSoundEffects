@@ -26,6 +26,13 @@
 
 The standalone ZIP and folder appear in Git; **archive contents were not independently inspected** in this documentation-only pass. Git tells us what changed, not why each change was selected or whether it passed a gameplay test.
 
+## 2026-11-01 — finished-project status
+
+- At my direction, Roar Sound Effects is marked **finished**, not awaiting further development.
+- No additional features, maintenance or client ports are planned for the original `ROAR` addon.
+- Compatible-client use is conditional on the historical APIs and sound assets; no playback or build compatibility was retested.
+- Documentation-only closeout; Lua, TOC, ZIP and license remain unchanged.
+
 ## 2026-11-01 — remembered origin and RoarForever lineage
 
 - Added Babuni's personal account of restoring built-in `/roar` audio after encountering a silent client.
