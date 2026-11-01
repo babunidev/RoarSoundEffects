@@ -1,10 +1,12 @@
-# ROARSounds — concept and creative purpose
+# Roar Sound Effects — concept and creative purpose
 
-**Creative author:** Babuni.dev  
+**By:** Babuni  
 **Addon as installed:** ROAR  
 **Document status:** Source-based reconstruction, not a transcript of initial brainstorming.
 
 ## Giving a familiar emote its voice
+
+For me, a character's roar should be something players can hear as well as read. I gave this original **ROARSounds** experiment the clearer portfolio name **Roar Sound Effects** while keeping its historical installed **ROAR** identity.
 
 The project began with a small game-world observation: the player may see the text of a character's `/roar` emote without hearing the race-specific roar that helps the gesture feel alive. ROARSounds makes that expressive moment audible again by selecting a **built-in game sound** rather than inventing or replacing the sound palette.
 
@@ -24,6 +26,6 @@ Eight races with male/female sound variants are declared; the addon uses client 
 
 ## Related work, separate history
 
-`ROARSounds` is **not** the same addon as the action-slot-controlled `roar`, `roarr`, `ROARRunlimited`, `RoarGuild`, or later `RoarForever`. A common creative taste for expressive game characters can be discussed in Babuni.dev's portfolio, but code lineage, approved integration plans and release compatibility must be established rather than assumed.
+`ROARSounds` is **not** the same addon as the action-slot-controlled `roar`, `roarr`, `ROARRunlimited`, `RoarGuild`, or later `RoarForever`. A common creative taste for expressive game characters can be discussed in Babuni's portfolio, but code lineage, approved integration plans and release compatibility must be established rather than assumed.
 
-Babuni.dev remains the original creative director. Technical and documentation assistance from AI must be attributed separately and only when supported by records.
+Babuni remains the original creative director. Technical and documentation assistance from AI must be attributed separately and only when supported by records.
