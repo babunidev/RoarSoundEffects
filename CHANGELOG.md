@@ -1,6 +1,6 @@
-# ROARSounds — verified Git history
+# Roar Sound Effects — verified Git history
 
-**Author:** Babuni.dev. Dates are commit timestamps, **not verified public release or in-game test dates**.
+**By:** Babuni. Dates are commit timestamps, **not verified public release or in-game test dates**.
 
 ## 2026-10-26 — expanded project documentation
 
@@ -22,6 +22,12 @@
 | **2026-04-22** | `2dde5e4`, `8eac1fa` | Added `ROAR/` directory source and `ROAR.zip`; old root-level files were deleted in subsequent commits. |
 | **2026-04-22** | `9a58d11` | Updated the README's description and installation instructions to mention archive extraction. |
 | **2026-09-18** | `87b9821` | Changed client-specific README context to provider-neutral installation wording. |
-| **2026-10-26** | Author-credit and docs commits | Standardized displayed Babuni.dev author credit, MIT notice, and initial source-based project records. |
+| **2026-10-26** | Author-credit and docs commits | Standardized displayed Babuni author credit, MIT notice, and initial source-based project records. |
 
 The standalone ZIP and folder appear in Git; **archive contents were not independently inspected** in this documentation-only pass. Git tells us what changed, not why each change was selected or whether it passed a gameplay test.
+
+## 2026-11-01 — Roar Sound Effects repository identity
+
+- The GitHub repository was renamed from `ROARSounds` to **RoarSoundEffects**.
+- At my direction, AI revised the project documentation, identity and attribution while preserving installed **ROAR** files and historical evidence.
+- No Lua, TOC, ZIP, license or in-game test was changed.
