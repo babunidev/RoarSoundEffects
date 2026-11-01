@@ -1,4 +1,6 @@
-# ROARSounds — code architecture
+# Roar Sound Effects — code architecture
+
+This reference describes the existing **ROAR** Lua/TOC implementation in my renamed **RoarSoundEffects** repository, not a new sound engine or repackaged release.
 
 **Source examined:** `ROAR/ROAR.lua` and `ROAR/ROAR.toc`, 2026-10-26. Source inspection, **not** executed client tests.
 
@@ -53,7 +55,7 @@ The English substring check may match a phrase where the word roar appears but a
 ## Packaging, API target and historical communication experiment
 
 - Actual source files: `ROAR/ROAR.lua`, `ROAR/ROAR.toc`.
-- Manifest title `ROAR`, author Babuni.dev, `Interface: 30300`; no explicit `Version` or `SavedVariables`.
+- Manifest title `ROAR`, author Babuni, `Interface: 30300`; no explicit `Version` or `SavedVariables`.
 - `ROAR.zip` is present as a separate binary archive; parity with committed source not independently verified here.
 - Lua uses a legacy callback style with `event`, `arg1`, `arg2` globals.
 - On 2026-04-20/22 the project briefly used addon messaging to share roar sounds across party/raid/guild. That implementation was **removed** by `fcc2be8` and does not describe the present architecture.
