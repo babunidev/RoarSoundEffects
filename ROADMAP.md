@@ -1,6 +1,8 @@
-# ROARSounds — verification roadmap
+# Roar Sound Effects — verification roadmap
 
-**Creative owner:** Babuni.dev  
+The repository is now **RoarSoundEffects** (formerly ROARSounds); the installed addon remains **ROAR**. This naming pass made no compatibility or runtime changes.
+
+**Creative owner:** Babuni  
 **Scope:** Testing and possible future decisions, **not** an approved implementation request.
 
 ## Implemented source baseline
@@ -39,6 +41,6 @@
 - Should name resolution preserve realm identity instead of stripping it?
 - Should the project provide optional configuration to mute local vs other-player roars?
 - Is `ROAR.zip` the authoritative release package, or should packaging be generated from committed source?
-- Which exact WoW versions does Babuni.dev want to support?
+- Which exact WoW versions does Babuni want to support?
 
 No runtime or asset modifications were made during the documentation audit. The current design remains as committed.
