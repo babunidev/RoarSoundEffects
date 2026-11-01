@@ -1,6 +1,8 @@
-# ROARSounds — sound and content inventory
+# Roar Sound Effects — sound and content inventory
 
-**Creative author:** Babuni.dev.  
+This inventory records built-in game sound references used by the original **ROAR** addon. The GitHub project is now **Roar Sound Effects**; no audio files or mappings were changed by this documentation revision.
+
+**Creative author:** Babuni.  
 **Sound ownership:** Game-client native assets; they were not composed, recorded or bundled by this addon.
 
 ## Sound asset mapping
@@ -34,6 +36,6 @@ The project has no database of custom roar captions, greetings, subtitles, promp
 
 ## Preserving the asset/author boundary
 
-In the portfolio, describe the accomplishment as **reconnecting existing race-specific client sounds to emote text using runtime race/sex resolution**. Do not describe Blizzard-origin WAV files as Babuni.dev compositions. A future audio replacement or additional mapping must be explicitly approved and separately licensed/attributed.
+In the portfolio, describe the accomplishment as **reconnecting existing race-specific client sounds to emote text using runtime race/sex resolution**. Do not describe Blizzard-origin WAV files as Babuni compositions. A future audio replacement or additional mapping must be explicitly approved and separately licensed/attributed.
 
 This documentation pass did not listen to, extract, redistribute or validate any WAV file from the game client.
