@@ -1,13 +1,13 @@
-# ROARSounds — creative and technical development journal
+# Roar Sound Effects — creative and technical development journal
 
-**Project creator and creative director:** Babuni.dev  
+**Project creator and creative director:** Babuni  
 **Retrospective authored:** 2026-10-26 from repository README, committed Lua/TOC and dated Git diffs. Original chat transcripts were not reconstructed or published.
 
 ## April 19, 2026 — letting the roar be heard
 
 ROARSounds began with a narrow act of game-world restoration. The original `ROAR.lua` committed on **April 19, 2026** (`5d54503`) watched for an emote message from the player's own character. When text indicated a roar, it selected the corresponding built-in game audio using the character's race and sex. It did not create a new sound pack or require the user to configure an ability rotation; it simply made a familiar roleplay gesture audible.
 
-This is the core creative idea associated with Babuni.dev. It is expressed by the repository's purpose and first implementation. The available commits do not preserve a conversation where the author explains the exact moment of inspiration, so this journal treats the connection between sound and character immersion as a **source-grounded interpretation**, not a verbatim personal recollection.
+This is the core creative idea associated with Babuni. It is expressed by the repository's purpose and first implementation. The available commits do not preserve a conversation where the author explains the exact moment of inspiration, so this journal treats the connection between sound and character immersion as a **source-grounded interpretation**, not a verbatim personal recollection.
 
 The earliest code listed race-specific sound variants in a nested table keyed by race and sex, including an alias for the Undead/Scourge naming. It subscribed to `PLAYER_LOGIN`, `UNIT_MODEL_CHANGED`, and `CHAT_MSG_TEXT_EMOTE` and used `PlaySoundFile`. At first it cared only about the speaker who installed the addon.
 
@@ -33,7 +33,7 @@ A little later that same day, `42023c0` introduced a **0.3-second cooldown keyed
 
 The Lua and TOC were added inside a proper `ROAR/` directory (`2dde5e4`) and a `ROAR.zip` artifact uploaded (`8eac1fa`). The obsolete root-level files were then removed. The README subsequently told users to extract the ZIP or place the Lua and TOC inside an AddOns/ROAR folder.
 
-This organizational move is easy to overlook but important for the future Babuni.dev portfolio: a one-off script became something that another person could install, at least as intended by the committed package structure. The ZIP's bytes were not compared with the currently committed folder during this documentation review, so reproducibility remains unverified.
+This organizational move is easy to overlook but important for the future Babuni portfolio: a one-off script became something that another person could install, at least as intended by the committed package structure. The ZIP's bytes were not compared with the currently committed folder during this documentation review, so reproducibility remains unverified.
 
 The packaged manifest declares **`Interface: 30300`**. This is an explicit 3.3-era interface version, unlike the `11200` manifests in some separate Vanilla projects. The source uses old event globals; that does not automatically prove its runtime works unchanged on any particular modern or legacy game distribution. Actual client installation and playback still need testing.
 
@@ -41,12 +41,16 @@ The packaged manifest declares **`Interface: 30300`**. This is an explicit 3.3-e
 
 On September 18, a wording change made the installation description provider-neutral. On October 26, earlier housekeeping updated author credit and supplied short project documents. The new documentation pass makes that history readable, with a practical README, an architecture description, an explicit race/sex sound inventory, a decisions register, and an actionable test plan.
 
-The source now contains **16 declared WAV paths** across eight race families and two sex values. They are pointers to game-owned files, **not original recordings by Babuni.dev**. It also has no custom slash-command UI, saved profile, addon communication or autonomous scanning system. Other-player playback is conditional on usable unit information.
+The source now contains **16 declared WAV paths** across eight race families and two sex values. They are pointers to game-owned files, **not original recordings by Babuni**. It also has no custom slash-command UI, saved profile, addon communication or autonomous scanning system. Other-player playback is conditional on usable unit information.
 
 **User contribution:** creative authorship and direction of the ROARSounds addon, reflected in the repo. **AI contribution in this session:** inspect source and Git history, interpret evidenced changes, write and commit Markdown documentation. **Not performed:** Lua/TOC/ZIP changes, audio extraction, live playback or sound-asset verification, or approval of additional behavior.
 
 ## The remaining creative questions
 
-Should the addon try to recognize more races, offer player controls, or support clients beyond its declared TOC target? Is a silence-first response better than guessing when the speaker is not identifiable? Should matching be localized or made more precise? These are sensible **future questions for Babuni.dev**, not decisions already made.
+Should the addon try to recognize more races, offer player controls, or support clients beyond its declared TOC target? Is a silence-first response better than guessing when the speaker is not identifiable? Should matching be localized or made more precise? These are sensible **future questions for Babuni**, not decisions already made.
 
 A publishable portfolio account should preserve both experiments—the temporary message protocol and the final chat-listener model—because the discarded solution shows how the work evolved, rather than pretending the current code was obvious from the beginning.
+
+## November 2026 — a clearer name for the sound experiment
+
+The project that began as **ROARSounds** is now named **Roar Sound Effects** on GitHub. The idea was to let the sound of an in-game `/roar` match the character's race and sex, using the existing client sounds. I chose the more descriptive name while keeping the installed **ROAR** addon intact. My AI assistant revised the documentation at my request; it did not change Lua, game audio, packaging or verify playback during this pass.
