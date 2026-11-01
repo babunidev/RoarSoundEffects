@@ -1,6 +1,12 @@
-# ROARSounds — development rules for human and AI contributors
+# Roar Sound Effects — development rules for human and AI contributors
 
-**Creative author and decision authority:** Babuni.dev.
+**By:** Babuni.
+
+## Project identity and writing style
+
+The GitHub project is **RoarSoundEffects**, displayed as **Roar Sound Effects**, and was formerly ROARSounds. Its historical installed folder and game identifiers are **ROAR**; do not rename `ROAR/ROAR.lua`, `ROAR/ROAR.toc` or repack the ZIP during documentation work.
+
+Write public-facing histories from Babuni's first-person perspective without beginning sentences with `I` or `My`. **Babuni** identifies the human creative; **babuni.dev** identifies the development portfolio. Use “creative,” not “creator,” for the human role. Distinguish human idea and direction, AI contribution, verified implementation and untested behavior. Technical reference writing may use neutral voice.
 
 ## Identity
 
@@ -23,7 +29,7 @@ Do not replace the creator's immersion-first concept with combat automation, a p
 
 ## Collaboration journal expectations
 
-For each substantive change, record: Babuni.dev's direction and stated reason; AI analysis and possible alternatives; the creator's explicit accepted/rejected/postponed decisions; modified paths and commit; actual runtime test environment and result; and unresolved questions. Without these, mark reconstruction instead of fabricating an origin story.
+For each substantive change, record: Babuni's direction and stated reason; AI analysis and possible alternatives; the creator's explicit accepted/rejected/postponed decisions; modified paths and commit; actual runtime test environment and result; and unresolved questions. Without these, mark reconstruction instead of fabricating an origin story.
 
 Maintain README, CONCEPT, ROADMAP, CHANGELOG, AGENTS, and `docs/DEVLOG.md`, `docs/DECISIONS.md`, `docs/DESIGN.md`, `docs/ARCHITECTURE.md`, `docs/CONTENT.md`, `docs/AI_COLLABORATION.md` along with applicable code revisions.
 
