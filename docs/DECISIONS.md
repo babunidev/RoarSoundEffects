@@ -1,6 +1,6 @@
-# ROARSounds — design-evidence and decision record
+# Roar Sound Effects — design-evidence and decision record
 
-**Creative director:** Babuni.dev. This file distinguishes **what Git proves** from a reconstructed motive or open decision.
+**Creative director:** Babuni. This file distinguishes **what Git proves** from a reconstructed motive or open decision.
 
 ## Evidence-supported development turns
 
@@ -36,6 +36,10 @@ The commits prove **that** the code moved between approaches. They do not contai
 3. Should text detection be more restrictive or localized?
 4. Should the addon offer player-adjustable playback options?
 5. Should author-approved release builds be generated from the source tree rather than uploaded manually?
-6. Does Babuni.dev want a portfolio comparison between this listener-based addon and the separate action-triggered ROAR family?
+6. Does Babuni want a portfolio comparison between this listener-based addon and the separate action-triggered ROAR family?
 
 Do not implement any option merely because it appears here; preserve the creative owner's explicit decisions.
+
+## November 2026 — project name
+
+The repository is now **RoarSoundEffects**, displayed as **Roar Sound Effects**, formerly **ROARSounds**. My creative decision was to make its sound-restoration purpose clearer without renaming the installed **ROAR** addon. The AI assistant changed documentation only; no runtime migration or playback verification occurred.
