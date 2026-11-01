@@ -68,3 +68,7 @@ The project that began as **ROARSounds** is now named **Roar Sound Effects** on 
 With the sound-restoration experiment documented, the project is finished. The original addon has served its intended purpose, and no further development of this version is planned. It can remain available to those using a client that supports the historical sounds and APIs, although current client compatibility was not retested.
 
 My AI assistant recorded that decision in the project documentation. No Lua, TOC, ZIP, license or audio asset was changed.
+
+## 1 November 2026 — the sound-restoration branch
+
+Looking back at my expressive WoW experiments, I wanted the audible roar to be recognized as a separate creative problem. The older action-emote addons decided when a character should gesture, whereas **Roar Sound Effects** tried to restore the game's own voice after a text emote was detected. My AI assistant checked that difference against Roar Forever and the wider [family timeline](EMOTE_FAMILY_HISTORY.md). That shared history does not imply this addon contains editable emotes, spellcast hooks or a direct code fork. This was documentation work only.

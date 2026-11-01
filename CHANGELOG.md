@@ -45,3 +45,8 @@ The standalone ZIP and folder appear in Git; **archive contents were not indepen
 - The GitHub repository was renamed from `ROARSounds` to **RoarSoundEffects**.
 - At my direction, AI revised the project documentation, identity and attribution while preserving installed **ROAR** files and historical evidence.
 - No Lua, TOC, ZIP, license or in-game test was changed.
+
+## 2026-11-01 — related-family documentation
+
+- Placed this finished legacy sound-restoration addon beside, but not inside, the action-emote trigger family. See [family history](docs/EMOTE_FAMILY_HISTORY.md).
+- No Lua, audio files, or release behavior changed.

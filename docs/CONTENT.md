@@ -39,3 +39,7 @@ The project has no database of custom roar captions, greetings, subtitles, promp
 In the portfolio, describe the accomplishment as **reconnecting existing race-specific client sounds to emote text using runtime race/sex resolution**. Do not describe Blizzard-origin WAV files as Babuni compositions. A future audio replacement or additional mapping must be explicitly approved and separately licensed/attributed.
 
 This documentation pass did not listen to, extract, redistribute or validate any WAV file from the game client.
+
+## Related development history
+
+Roar Sound Effects (originally ROARSounds) belongs to the **voice-restoration branch** of these expressive WoW experiments, not to the action-slot emote-trigger family. The April 2026 implementation listens for recognized text-emote activity and tries to replay the race/sex-specific client roar sound. It does **not** provide an emote registry, automatically perform an emote on ability use, or generate custom audio. This creative approach later informed Roar Forever, although direct code inheritance has not been verified. The [cross-project record](EMOTE_FAMILY_HISTORY.md) puts both branches in context.

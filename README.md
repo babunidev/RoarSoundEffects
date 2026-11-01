@@ -80,7 +80,7 @@ This repository began **April 19, 2026**, with a local-player-only emote sound r
 
 That brief, traceable sequence is documented in the [development journal](docs/DEVLOG.md). The historic source changes are verified in commits; no missing personal discussions or feature approvals have been invented.
 
-This is a **separate repository** from [`roar`](https://github.com/babunidev/roar), [`roarr`](https://github.com/babunidev/roarr), [`ROARRunlimited`](https://github.com/babunidev/ROARRunlimited), and [`RoarGuild`](https://github.com/babunidev/RoarGuild). Those projects use similar names but different implementations.
+This is a **separate repository** from [`roar`](https://github.com/babunidev/BattleEmotesLegacy), [`roarr`](https://github.com/babunidev/BattleEmotes), [`ROARRunlimited`](https://github.com/babunidev/MultiActionEmotes), and [`RoarGuild`](https://github.com/babunidev/RoarGuildAddon). Those projects use similar names but different implementations.
 
 ## License and development documentation
 
@@ -90,3 +90,7 @@ The existing [MIT license](LICENSE) credits **Babuni (2026)**. The license cover
 - [Technical architecture](docs/ARCHITECTURE.md) · [Decisions and unresolved questions](docs/DECISIONS.md) · [Narrative development journal](docs/DEVLOG.md)
 - [Completion status and compatibility notes](ROADMAP.md) · [Changelog](CHANGELOG.md)
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [Developer/AI rules](AGENTS.md)
+
+## Relationship to the action-emote projects
+
+Roar Sound Effects (originally ROARSounds) belongs to the **voice-restoration branch** of these expressive WoW experiments, not to the action-slot emote-trigger family. The April 2026 implementation listens for recognized text-emote activity and tries to replay the race/sex-specific client roar sound. It does **not** provide an emote registry, automatically perform an emote on ability use, or generate custom audio. This creative approach later informed Roar Forever, although direct code inheritance has not been verified. [The wider project history](docs/EMOTE_FAMILY_HISTORY.md) separates action-triggered emote generators from sound playback and documents the Roar Guild and Flourish branches.

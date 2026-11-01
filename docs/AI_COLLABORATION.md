@@ -35,3 +35,7 @@ AI incorporated that testimony and checked it against the ROAR source to separat
 ## November 2026 — documenting the rename
 
 I renamed the GitHub repository to **RoarSoundEffects** to give my earlier sound experiment a descriptive public title. At my request, AI revised the current documentation and attribution, preserving the historical **ROAR** installed addon and the distinction between my idea and source-based interpretation. No in-game audio testing was performed.
+
+## Related development history
+
+Roar Sound Effects (originally ROARSounds) belongs to the **voice-restoration branch** of these expressive WoW experiments, not to the action-slot emote-trigger family. The April 2026 implementation listens for recognized text-emote activity and tries to replay the race/sex-specific client roar sound. It does **not** provide an emote registry, automatically perform an emote on ability use, or generate custom audio. This creative approach later informed Roar Forever, although direct code inheritance has not been verified. The [cross-project record](EMOTE_FAMILY_HISTORY.md) puts both branches in context.

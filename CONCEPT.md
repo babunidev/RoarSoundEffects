@@ -35,3 +35,7 @@ Eight races with male/female sound variants are declared; the addon uses client 
 ROARSounds remains a distinct implementation from the action-slot-controlled `roar`, `roarr`, `ROARRunlimited`, `RoarGuild`, and later RoarForever. Its creative connection to RoarForever is established by Babuni's recollection; direct code lineage and release compatibility must be verified independently.
 
 Babuni remains the original creative director. Technical and documentation assistance from AI must be attributed separately and only when supported by records.
+
+## Related development history
+
+Roar Sound Effects (originally ROARSounds) belongs to the **voice-restoration branch** of these expressive WoW experiments, not to the action-slot emote-trigger family. The April 2026 implementation listens for recognized text-emote activity and tries to replay the race/sex-specific client roar sound. It does **not** provide an emote registry, automatically perform an emote on ability use, or generate custom audio. This creative approach later informed Roar Forever, although direct code inheritance has not been verified. The [cross-project record](docs/EMOTE_FAMILY_HISTORY.md) puts both branches in context.
