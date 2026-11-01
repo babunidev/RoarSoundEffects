@@ -1,6 +1,8 @@
-# ROARSounds — auditory interaction and experience design
+# Roar Sound Effects — auditory interaction and experience design
 
-**Creator:** Babuni.dev.
+My aim was to let character roars be heard as well as seen in text. This project is now named **Roar Sound Effects**, while the installed addon retains the historical **ROAR** identity.
+
+**Creator:** Babuni.
 
 ## A roleplay gesture you can hear
 
