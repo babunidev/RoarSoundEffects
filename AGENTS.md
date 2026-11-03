@@ -12,7 +12,7 @@ Write public-facing histories from Babuni's first-person perspective without beg
 
 This repository implements a **WoW /roar sound restoration addon** installed as `ROAR`. It is not the action-slot emote addon in `roar` or `roarr`, and is separate from ROARRunlimited, RoarGuild and the later RoarForever implementation. Shared naming is not evidence of a single codebase.
 
-Do not replace the creator's immersion-first concept with combat automation, a performance dashboard, a content-generation pipeline or a new sound pack without explicit creative direction.
+Do not replace the creative's immersion-first concept with combat automation, a performance dashboard, a content-generation pipeline or a new sound pack without explicit creative direction.
 
 ## Finished-project policy
 
@@ -39,7 +39,7 @@ Babuni recalled on November 1, 2026 that this addon arose after enjoying audible
 
 ## Collaboration journal expectations
 
-For each substantive change, record: Babuni's direction and stated reason; AI analysis and possible alternatives; the creator's explicit accepted/rejected/postponed decisions; modified paths and commit; actual runtime test environment and result; and unresolved questions. Without these, mark reconstruction instead of fabricating an origin story.
+For each substantive change, record: Babuni's direction and stated reason; AI analysis and possible alternatives; the creative's explicit accepted/rejected/postponed decisions; modified paths and commit; actual runtime test environment and result; and unresolved questions. Without these, mark reconstruction instead of fabricating an origin story.
 
 Maintain README, CONCEPT, ROADMAP, CHANGELOG, AGENTS, and `docs/DEVLOG.md`, `docs/DECISIONS.md`, `docs/DESIGN.md`, `docs/ARCHITECTURE.md`, `docs/CONTENT.md`, `docs/AI_COLLABORATION.md` along with applicable code revisions.
 
@@ -48,3 +48,7 @@ For this documentation-only audit, preserve Lua, TOC, ZIP and LICENSE exactly.
 ## Historical and functional boundaries
 
 Use [the full expressive-addon history](docs/EMOTE_FAMILY_HISTORY.md) for cross-project context. This addon detects a text emote and plays an existing sound; it does not send action-triggered emotes, support the Roar Guild editable registry or implement Flourish's spellcast event. Preserve its finished legacy status and separate source evidence from personal recollection.
+
+## Repository-local documentation standard
+
+Before writing or changing project documentation, read [docs/DOCUMENTATION.md](docs/DOCUMENTATION.md). These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
