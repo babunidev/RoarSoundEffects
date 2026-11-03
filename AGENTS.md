@@ -29,7 +29,7 @@ Compatibility is conditional: the TOC declares `30300`; playback depends on the 
 - Detection is a substring test on text-emote chat; check localization and false positives.
 - Other-player sound requires a resolvable player unit. Do not claim that every nearby roaring character can be identified.
 - Name normalization strips realms and the per-sender cooldown is 0.3 seconds; test collisions and suppressed events.
-- The **current source does not send addon messages**. That historical experiment was removed on April 22, 2026; reintroducing communication requires a new creator decision.
+- The **current source does not send addon messages**. That historical experiment was removed on April 22, 2026; reintroducing communication requires a new creative decision.
 - Do not treat `ROAR.zip` as verified equivalent to source without comparing its contents.
 - Preserve MIT author credit and game-audio licensing boundaries.
 
