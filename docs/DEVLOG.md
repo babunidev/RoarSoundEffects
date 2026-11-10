@@ -1,6 +1,6 @@
-# Roar Sound Effects — creative and technical development journal
+# Roar Sound Effects — development journal
 
-**Project creator and creative director:** Babuni  
+**Creative:** Babuni  
 **Retrospective authored:** 2026-10-26 from repository README, committed Lua/TOC and dated Git diffs. Original chat transcripts were not reconstructed or published.
 
 ## April 19, 2026 — letting the roar be heard
