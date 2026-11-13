@@ -1,5 +1,7 @@
 # Roar Sound Effects — human and AI collaboration methodology
 
+Follow [the documentation standard](DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution.
+
 **Creative author and owner:** Babuni.
 
 ## Attribution boundaries

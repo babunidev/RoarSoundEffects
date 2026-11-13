@@ -6,7 +6,7 @@
 
 The GitHub project is **RoarSoundEffects**, displayed as **Roar Sound Effects**, and was formerly ROARSounds. Its historical installed folder and game identifiers are **ROAR**; do not rename `ROAR/ROAR.lua`, `ROAR/ROAR.toc` or repack the ZIP during documentation work.
 
-Write public-facing histories from Babuni's first-person perspective without beginning sentences with `I` or `My`. **Babuni** identifies the human creative; **babuni.dev** identifies the development portfolio. Use “creative,” not “creator,” for the human role. Distinguish human idea and direction, AI contribution, verified implementation and untested behavior. Technical reference writing may use neutral voice.
+Write public-facing histories from Babuni's first-person perspective without beginning sentences with `I` or `My`. **Babuni** identifies the human creative; **babuni.dev** identifies the development portfolio. Use “creative,” not “creator,” for the human role. Distinguish human idea and direction, AI contribution, verified implementation and untested behavior.
 
 ## Identity
 
@@ -51,4 +51,4 @@ Use [the full expressive-addon history](docs/EMOTE_FAMILY_HISTORY.md) for cross-
 
 ## Repository-local documentation standard
 
-Before writing or changing project documentation, read [docs/DOCUMENTATION.md](docs/DOCUMENTATION.md). These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
+Follow [the documentation standard](docs/DOCUMENTATION.md) for first-person author voice throughout project documentation, factual changelogs, and naming the AI tool and verified model for each contribution. These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
